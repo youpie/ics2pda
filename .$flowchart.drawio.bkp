@@ -1,0 +1,96 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Load ical 2 pda" id="KGHJc8oXKq7Qtk-ehbvM">
+    <mxGraphModel dx="988" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xlkfc-KfxaTiw6dGTx92-1" target="xlkfc-KfxaTiw6dGTx92-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="-30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xlkfc-KfxaTiw6dGTx92-2" target="xlkfc-KfxaTiw6dGTx92-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-2" value="Load ICAL files" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6VRu-ToVgBLqZKasGNIJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xlkfc-KfxaTiw6dGTx92-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-4" value="Load single event" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="xlkfc-KfxaTiw6dGTx92-19" target="xlkfc-KfxaTiw6dGTx92-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xlkfc-KfxaTiw6dGTx92-6" target="xlkfc-KfxaTiw6dGTx92-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-13" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xlkfc-KfxaTiw6dGTx92-11" vertex="1" connectable="0">
+          <mxGeometry x="0.298" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-6" value="Does it have an ID" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="305" y="450" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-8" value="Save event to combined ICS file" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="690" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-14" value="Save ID to dict" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=18.15371621621614;" parent="1" vertex="1">
+          <mxGeometry x="160" y="550" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6VRu-ToVgBLqZKasGNIJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xlkfc-KfxaTiw6dGTx92-15" target="xlkfc-KfxaTiw6dGTx92-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-15" value="Remove -&#39;es from ID" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="675" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.471;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="xlkfc-KfxaTiw6dGTx92-14" target="xlkfc-KfxaTiw6dGTx92-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="xlkfc-KfxaTiw6dGTx92-6" target="xlkfc-KfxaTiw6dGTx92-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="490" as="sourcePoint" />
+            <mxPoint x="510" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-21" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xlkfc-KfxaTiw6dGTx92-17" vertex="1" connectable="0">
+          <mxGeometry x="0.0938" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-19" value="Generate and Add ID" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6VRu-ToVgBLqZKasGNIJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6VRu-ToVgBLqZKasGNIJ-1" target="xlkfc-KfxaTiw6dGTx92-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VRu-ToVgBLqZKasGNIJ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6VRu-ToVgBLqZKasGNIJ-1" target="6VRu-ToVgBLqZKasGNIJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VRu-ToVgBLqZKasGNIJ-1" value="Should the event be editable" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="350" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6VRu-ToVgBLqZKasGNIJ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6VRu-ToVgBLqZKasGNIJ-7" target="6VRu-ToVgBLqZKasGNIJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VRu-ToVgBLqZKasGNIJ-7" value="Add category" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6VRu-ToVgBLqZKasGNIJ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6VRu-ToVgBLqZKasGNIJ-11" target="xlkfc-KfxaTiw6dGTx92-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VRu-ToVgBLqZKasGNIJ-11" value="Create ID from hash of name and date" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

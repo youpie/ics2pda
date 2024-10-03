@@ -1,0 +1,223 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17" pages="2">
+  <diagram name="Load ical 2 pda" id="KGHJc8oXKq7Qtk-ehbvM">
+    <mxGraphModel dx="988" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xlkfc-KfxaTiw6dGTx92-1" target="xlkfc-KfxaTiw6dGTx92-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="-30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xlkfc-KfxaTiw6dGTx92-2" target="xlkfc-KfxaTiw6dGTx92-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-2" value="Load ICAL files" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6VRu-ToVgBLqZKasGNIJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xlkfc-KfxaTiw6dGTx92-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-4" value="Load single event" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xlkfc-KfxaTiw6dGTx92-6" target="xlkfc-KfxaTiw6dGTx92-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-13" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xlkfc-KfxaTiw6dGTx92-11" vertex="1" connectable="0">
+          <mxGeometry x="0.298" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-6" value="Does it have an ID" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="305" y="450" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-8" value="Save event to ICS file" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="690" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-14" value="Save ID to dict" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=18.15371621621614;" parent="1" vertex="1">
+          <mxGeometry x="160" y="550" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="xlkfc-KfxaTiw6dGTx92-6" target="xlkfc-KfxaTiw6dGTx92-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="490" as="sourcePoint" />
+            <mxPoint x="510" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-21" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xlkfc-KfxaTiw6dGTx92-17" vertex="1" connectable="0">
+          <mxGeometry x="0.0938" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_7EldUlOoWnVr_qcqjVi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xlkfc-KfxaTiw6dGTx92-19" target="_7EldUlOoWnVr_qcqjVi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xlkfc-KfxaTiw6dGTx92-19" value="Generate and Add ID" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6VRu-ToVgBLqZKasGNIJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6VRu-ToVgBLqZKasGNIJ-1" target="xlkfc-KfxaTiw6dGTx92-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0n0tIqgrPxWZMYdrbeJy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6VRu-ToVgBLqZKasGNIJ-1" target="xlkfc-KfxaTiw6dGTx92-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VRu-ToVgBLqZKasGNIJ-1" value="Should the event be editable" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="297.5" y="350" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6VRu-ToVgBLqZKasGNIJ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6VRu-ToVgBLqZKasGNIJ-7" target="6VRu-ToVgBLqZKasGNIJ-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VRu-ToVgBLqZKasGNIJ-7" value="Add category" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_7EldUlOoWnVr_qcqjVi-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xlkfc-KfxaTiw6dGTx92-19" target="xlkfc-KfxaTiw6dGTx92-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_7EldUlOoWnVr_qcqjVi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="_7EldUlOoWnVr_qcqjVi-2" target="xlkfc-KfxaTiw6dGTx92-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_7EldUlOoWnVr_qcqjVi-2" value="Add ID to description" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_7EldUlOoWnVr_qcqjVi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.007;entryY=0.563;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xlkfc-KfxaTiw6dGTx92-14" target="_7EldUlOoWnVr_qcqjVi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fiTGhadwW44tlcgbOGuI" name="Sync pda">
+    <mxGraphModel dx="830" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jdSR-VRuaLXUiAP0fNDn-2" target="jdSR-VRuaLXUiAP0fNDn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-2" value="Sync calendar to PDA" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jdSR-VRuaLXUiAP0fNDn-3" target="jdSR-VRuaLXUiAP0fNDn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-3" value="Create individual ICS files, with random names, but assigned ID&#39;s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jdSR-VRuaLXUiAP0fNDn-5" target="jdSR-VRuaLXUiAP0fNDn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-5" value="Sync these files from folder 1 to pda" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-7" value="Sync PDA to folder 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jdSR-VRuaLXUiAP0fNDn-10" target="jdSR-VRuaLXUiAP0fNDn-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-10" value="Sync changes from PDA to cal" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jdSR-VRuaLXUiAP0fNDn-11" target="jdSR-VRuaLXUiAP0fNDn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-11" value="&lt;div&gt;Recreate folder 2 sync&lt;/div&gt;Sync PDA to folder 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jdSR-VRuaLXUiAP0fNDn-13" target="jdSR-VRuaLXUiAP0fNDn-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-13" value="Check next file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jdSR-VRuaLXUiAP0fNDn-14" target="jdSR-VRuaLXUiAP0fNDn-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-19" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jdSR-VRuaLXUiAP0fNDn-18">
+          <mxGeometry x="-0.7739" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-14" value="Is it known and RW" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-15" value="Hash it" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jdSR-VRuaLXUiAP0fNDn-16" target="jdSR-VRuaLXUiAP0fNDn-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-25" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jdSR-VRuaLXUiAP0fNDn-22">
+          <mxGeometry x="-0.6975" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jdSR-VRuaLXUiAP0fNDn-16" target="jdSR-VRuaLXUiAP0fNDn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-24" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jdSR-VRuaLXUiAP0fNDn-23">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-16" value="Is hash same" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="585" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="jdSR-VRuaLXUiAP0fNDn-20" target="jdSR-VRuaLXUiAP0fNDn-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="720" />
+              <mxPoint x="250" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-20" value="Mark entry as changed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.004;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jdSR-VRuaLXUiAP0fNDn-14" target="jdSR-VRuaLXUiAP0fNDn-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jdSR-VRuaLXUiAP0fNDn-29" target="jdSR-VRuaLXUiAP0fNDn-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-29" value="Sync all new calendar entries to PDA" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jdSR-VRuaLXUiAP0fNDn-30" target="jdSR-VRuaLXUiAP0fNDn-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-30" value="&lt;div&gt;Recreate folder 2 sync&lt;br&gt;&lt;/div&gt;Sync PDA to folder 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jdSR-VRuaLXUiAP0fNDn-31" target="jdSR-VRuaLXUiAP0fNDn-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-31" value="Remove all entries from folder 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jdSR-VRuaLXUiAP0fNDn-32" target="jdSR-VRuaLXUiAP0fNDn-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-32" value="Sync PDA to folder 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jdSR-VRuaLXUiAP0fNDn-38" target="jdSR-VRuaLXUiAP0fNDn-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="530" />
+              <mxPoint x="480" y="80" />
+              <mxPoint x="150" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdSR-VRuaLXUiAP0fNDn-38" value="Remove all entries from folder 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
