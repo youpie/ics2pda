@@ -7,7 +7,9 @@ edition = "2021"
 serde = { version = "1.0.210", features = ["derive"] }
 dotenvy = "0.15.7"
 tokio = { version = "1", features = ["full"] }
-icalendar = "0.16.5"
+icalendar = { version = "0.16.9", features = ["serde", "parser", "serde_json"] }
 chrono = "0.4.38"
 toml = "0.8.19"
 reqwest = "0.12.8"
+regex = "1.11.0"
+derive-new = "0.7.0"
