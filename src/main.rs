@@ -108,6 +108,9 @@ async fn load_new_entries(calendars: Vec<CalendarInfo>) -> GenResult<Vec<MipCale
                 let mut mip_entry = mip_entry;
                 add_ids_to_description(&mut mip_entry);
                 add_category(&calendar_name, &mut mip_entry);
+                mip_entry.event.uid("");
+                mip_entry.event.add_property("TRANSP", "");
+                mip_entry.event.add_property("RRULE", "");
                 mip_entries.push(mip_entry)
             }
         }
@@ -128,20 +131,25 @@ async fn load_calendar(calendar_url: CalendarInfo) -> GenResult<Calendar> {
 }
 
 fn get_calendar_name(input: &str) -> String {
-    let re = Regex::new(r"\(([^)]+)\)").unwrap();
-    if let Some(captures) = re.captures(input) {
-        captures[1].to_string()
-    } else {
-        "Default".to_string()
-    }
+    // let re = Regex::new(r"\(([^)]+)\)").unwrap();
+    // if let Some(captures) = re.captures(input) {
+    //     captures[1].to_string()
+    // } else {
+    //     "Default".to_string()
+    // }
+    input.to_string()
 }
 
 fn add_ids_to_description(entry: &mut MipCalendarComplete) {
     let mut entry_description = entry.event.get_description().unwrap_or("").to_lowercase();
+    if !entry_description.is_empty() {
+        entry_description.push_str("\\n");
+    }
     entry_description.push_str(&format!(
-        "\nDO NOT EDIT NEXT LINE:\n{}",
+        "do not edit next line:\\n{}",
         entry.event.get_uid().unwrap_or("no UID")
     ));
+    entry.event.description(&entry_description);
 }
 
 fn add_category(calendar_name: &str, mip_calendar: &mut MipCalendarComplete) {
@@ -157,21 +165,34 @@ async fn save_events_to_disk(events: &Vec<MipCalendarComplete>) -> GenResult<()>
         output_check,
         "This folder is used to store calendar entries to sync with a WM PDA",
     )?;
+    let mut i = 0;
     for event in events {
         let mut calendar = Calendar::new();
         calendar.push(event.event.clone());
-        let hash = (event.metadata.hash + i64::MAX as i128).to_string();
+        let mut calendar_disp = format!("{}", calendar);
+        calendar_disp = calendar_disp.replace("UID:", "flats");
+        calendar_disp = calendar_disp.replace("TRANSP:", "flats");
+        calendar_disp = calendar_disp.replace("RRULE:", "flats");
+        let mut test = calendar_disp
+            .lines()
+            .filter(|line| line.trim() != "flats")
+            .collect::<Vec<&str>>()
+            .join("\n");
+        test = test.replace("\\n", r#"\r\n"#);
+        test = test.replace(r"\\r", "");
+        i += 1;
+        let hash = (i).to_string();
         let mut output = File::create(format!("{}/{}", path, hash)).unwrap();
-        write!(output, "{}", calendar)?;
+        write!(output, "{}", test)?;
     }
     Ok(())
 }
 
-async fn remove_previous_entries(path: &Path) -> GenResult<()> {
-    let test_file_path = Path::new(&format!("{}/{}", path.display(), "ics2pda"));
-    dbg!(test_file_path);
-    Ok(())
-}
+// async fn remove_previous_entries(path: &Path) -> GenResult<()> {
+//     let test_file_path = Path::new(&format!("{}/{}", path.display(), "ics2pda"));
+//     dbg!(test_file_path);
+//     Ok(())
+// }
 
 async fn serialise_and_save(events: &Vec<MipCalendarComplete>) -> GenResult<()> {
     Ok(())
